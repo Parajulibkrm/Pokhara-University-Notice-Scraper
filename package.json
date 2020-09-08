@@ -1,0 +1,28 @@
+{
+  "name": "node-pu-notice-scraper",
+  "version": "1.0.0",
+  "description": "A simple node js based scraper to scrape notice from PU's website",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Parajulibkrm/Pokhara-University-Notice-Scraoer.git"
+  },
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bikram Parajuli",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "html-entities": "^1.3.1",
+    "html-to-md": "^0.3.5",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
