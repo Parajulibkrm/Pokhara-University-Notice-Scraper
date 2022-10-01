@@ -2,13 +2,27 @@
 
 This is a simple node.js rest api implementation to scrape notices and notice contents from Pokhara University's website.
 
-## Install
+## Installation instuctions
+
+Clone this repo
+
+    git clone https://github.com/Parajulibkrm/Pokhara-University-Notice-Scraper.git
+
+Install Dependencies
 
     npm install
+
+or
+
+    yarn
 
 ## Run the app
 
     npm run server
+
+or 
+
+    yarn run server
 
 # REST API
 
